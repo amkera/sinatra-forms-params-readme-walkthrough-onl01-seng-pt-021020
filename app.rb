@@ -11,6 +11,11 @@ class App < Sinatra::Base
   end 
   
   #Let's use the key-value pairs in params to return the following phrase, using good-old string interpolation^^
+  
+  
+  #Notice that both of the attributes from the form are covered in this route: The method post and the action /food. It's almost like a game of catch - the form is throwing the data to the server, which catches it by having the same receiving address (/food) and way of receiving the data (post).
+  
+  
 
   
 
